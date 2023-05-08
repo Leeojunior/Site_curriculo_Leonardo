@@ -1,0 +1,17 @@
+footer{
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.footericon{
+    margin: 5px;
+}
+
+.footer_title{
+    margin: 20px;
+}

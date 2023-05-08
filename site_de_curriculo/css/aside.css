@@ -1,0 +1,107 @@
+aside{
+    margin: 20px;
+    flex: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+aside > .foto{
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/Woody-Toy-Story-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center;
+}
+
+.skills{
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+.skills > .skillsGrafico{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #ccc;
+    border-radius: 30px;
+    color: #ffff;
+    text-align: center;
+}
+
+.skillsGrafico > .preenchimento{
+    width: 90%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.skillsGrafico > .preenchimentocss{
+    width: 70%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.skillsGrafico > .preenchimentojs{
+    width: 5%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.skillsGrafico > .preenchimentoreact{
+    width: 3%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.skilltitle{
+    display: grid;
+    grid-template-columns: 30px 100px;
+}
+
+.languages > .linguagemTitle{
+    display: grid;
+    grid-template-columns: 30px 100px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+.languages > .inglesGrafico{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #ccc;
+    border-radius: 30px;
+    color: #ffff;
+}
+
+.inglesGrafico > .preenchimentoingles{
+    width: 70%;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.ptGrafico{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #ccc;
+    border-radius: 30px;
+    color: #ffff;
+}
+
+.ptGrafico > .preenchimentopt{
+    width: 90%;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.soft_txt{
+    margin-top: 5px;
+}
